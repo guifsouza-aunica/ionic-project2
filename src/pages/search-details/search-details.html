@@ -1,0 +1,61 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PS83NS6');</script>
+<!-- End Google Tag Manager -->
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Search type elements
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+	<ion-list data-gtm-type="search" data-gtm-name="search form">
+		<ion-item>
+		    <ion-label full>Search term</ion-label>
+		    <ion-input type="text" value="" data-gtm-type="search" data-gtm-search="input" data-gtm-name="search term"></ion-input>
+		</ion-item>
+		
+		<button ion-button clear full (click)="iniciarCarregamento()" data-gtm-type="search" data-gtm-search="submit" data-gtm-name="search">
+ 			<ion-icon name="send"></ion-icon>
+ 			&nbsp;&nbsp;Search
+ 		</button>
+	</ion-list>
+
+	<ion-list *ngIf="showMe">
+		<ion-item data-gtm-type="search" data-gtm-search="result" data-gtm-name="montanha del lago">
+			<ion-avatar item-start>
+				<img src="assets/imgs/item-list1.jpeg">
+			</ion-avatar>
+			<h3>Montanha del lago</h3>
+			<p>Patagonia - Argentina</p>
+		</ion-item>
+		<ion-item data-gtm-type="search" data-gtm-search="result" data-gtm-name="lago grande">
+			<ion-avatar item-start>
+				<img src="assets/imgs/item-list2.jpeg">
+			</ion-avatar>
+			<h3>Lago Grande</h3>
+			<p>Pará - Brasil</p>
+		</ion-item>
+		<ion-item data-gtm-type="search" data-gtm-search="result" data-gtm-name="pico nevado">
+			<ion-avatar item-start>
+				<img src="assets/imgs/item-list3.jpeg">
+			</ion-avatar>
+			<h3>Pico Nevado</h3>
+			<p>Rio Grande do Sul - Brasil</p>
+		</ion-item>
+		<ion-item data-gtm-type="search" data-gtm-search="result" data-gtm-name="grande monte">
+			<ion-avatar item-start>
+				<img src="assets/imgs/item-list4.jpeg">
+			</ion-avatar>
+			<h3>Grande Monte</h3>
+			<p>São José - Brasil</p>
+		</ion-item>
+	</ion-list>
+
+</ion-content>

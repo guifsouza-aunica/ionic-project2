@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "375190176754",
+    "firebase_url": "https://projeto-de-teste-ae201.firebaseio.com",
+    "project_id": "projeto-de-teste-ae201",
+    "storage_bucket": "projeto-de-teste-ae201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375190176754:android:cdc65f703fe5483f",
+        "android_client_info": {
+          "package_name": "com.guilhermesouza.test.ionicvisitors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375190176754-6kovnl36lgq4hn9m484pk6gih1oa88vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4FTnDprohlpnsRbG7_eRjF2Fro4OHdxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
